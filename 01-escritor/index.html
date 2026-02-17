@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Escritor con IA local y privada</title>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>✍️Escritor de textos con IA local y privada</h1>
+
+        <label for="idea">¿Qué quieres escribir?</label>
+        <textarea id="idea" placeholder="Redactar un mail para invitar a mis amigos a una fiesta"></textarea>
+
+        <label for="tone">Tono del texto</label>
+        <select id="tone">
+            <option value="neutral">Neutral</option>
+            <option value="formal">Formal</option>
+            <option value="informal">Informal</option>
+            <option value="casual">Casual</option>
+
+        </select>
+        <label for="length">Longitud del texto</label>
+        <select id="length">
+            <option value="short">Corto</option>
+            <option value="medium">Mediano</option>
+            <option value="long">Largo</option>
+        </select>
+
+        <button id="generateBtn">✏️Generar texto</button>
+        <div id="output">Aquí saldrá el texto generado por la IA local...</div>
+
+    </section>
+
+</body>
+
+</html>
