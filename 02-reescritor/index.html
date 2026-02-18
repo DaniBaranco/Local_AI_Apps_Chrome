@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Reescritor con IA local y privada</title>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>✍️Reescritor de textos con IA local y privada</h1>
+
+        <label for="text">¿Qué quieres reescribir?</label>
+        <textarea id="text" placeholder="Escribe tu texto aquí"></textarea>
+        <div class="selectors">
+            <div class="selectors__item">
+                <label for="tone">Tono del texto</label>
+                <select id="tone">
+                    <option value="as-is">Como está</option>
+                    <option value="more-formal">Más formal</option>
+                    <option value="more-casual">Más casual</option>
+
+
+                </select>
+            </div>
+            <div class="selectors__item">
+                <label for="length">Longitud del texto</label>
+                <select id="length">
+                    <option value="as-is">Como está</option>
+                    <option value="shorter">Más corto</option>
+                    <option value="longer">Más largo</option>
+                </select>
+            </div>
+            <div class="selectors__item">
+                <button id="generateBtn">Reescribir texto</button>
+            </div>
+        </div>
+
+        <div id="output">Aquí saldrá el texto generado por la IA local...</div>
+
+    </section>
+
+</body>
+
+</html>
