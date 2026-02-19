@@ -1,4 +1,4 @@
-# 🤖 Curso IA Local - Chrome AI APIs
+# Chrome AI APIs
 
 Repositorio con proyectos de ejemplo que demuestran el uso de **APIs de IA locales y privadas** en el navegador Chrome.
 
@@ -242,7 +242,3 @@ Para obtener información útil durante el desarrollo:
 - [Chrome AI APIs Documentación](https://developer.chrome.com/docs/ai/)
 - [Chrome Dev Blog](https://developer.chrome.com/blog/)
 - Consulta el README específico en cada carpeta de proyecto
-
----
-
-**Creado con ❤️ para aprender sobre IA Local en el navegador**
