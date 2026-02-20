@@ -114,6 +114,26 @@ App que utiliza la API `LanguageModel` (Gemini Nano) para generar respuestas int
 
 ---
 
+### 7️⃣ **07-clima** - Clima Mundial
+App que obtiene datos meteorológicos actuales de cualquier ciudad del mundo usando APIs públicas gratuitas.
+
+| Aspecto | Detalle |
+|--------|--------|
+| **API** | Open-Meteo (Geocoding + Weather) |
+| **Función** | Obtiene clima actual de cualquier ciudad |
+| **Datos** | Temperatura, humedad, viento, sensación térmica |
+| **Conexión** | ✅ API pública gratuita (requiere internet) |
+
+**Características:**
+- Búsqueda de ciudades por nombre
+- Geocodificación automática
+- Datos meteorológicos en tiempo real
+- Interfaz responsiva y amigable
+- Códigos de clima con emojis descriptivos
+- Información de viento y sensación térmica
+
+---
+
 ## 🚀 Cómo Ejecutar los Proyectos
 
 Cada proyecto es **independiente** y se puede ejecutar abriendo el archivo `index.html` en **Chrome**:
@@ -126,6 +146,7 @@ Cada proyecto es **independiente** y se puede ejecutar abriendo el archivo `inde
 04-detector-idiomas/index.html
 05-traductor-idiomas/index.html
 06-prompts/index.html
+07-clima/index.html
 
 # Opción 2: Con un servidor local (Python)
 python -m http.server 8000
@@ -165,6 +186,10 @@ Curso_IA_local/
 │   ├── main.js
 │   └── styles.css
 ├── 06-prompts/
+│   ├── index.html
+│   ├── main.js
+│   └── styles.css
+├── 07-clima/
 │   ├── index.html
 │   ├── main.js
 │   └── styles.css

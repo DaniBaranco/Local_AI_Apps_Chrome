@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="main.js" defer></script>
+    <title>Clima Mundial</title>
+</head>
+<body>
+    <h1 class="head">
+        <span class="weather-icon">🌍</span>
+        Clima Mundial
+    </h1>
+
+    <section class="container">
+        <div class="search-box">
+            <label for="cityInput">
+                <span>🔍</span>Busca una ciudad:
+            </label>
+            <input type="text" id="cityInput" placeholder="Ej: Madrid, Nueva York, Tokio..." />
+            <button id="searchBtn">Buscar Clima</button>
+        </div>
+
+        <div id="status"></div>
+        
+        <div id="weatherInfo" class="weather-info">
+            <div class="city-name" id="cityName"></div>
+            
+            <div class="temperature-section">
+                <div class="main-temp" id="mainTemp"></div>
+                <div class="weather-description" id="weatherDesc"></div>
+            </div>
+
+            <div class="weather-grid">
+                <div class="weather-card">
+                    <div class="icon">💧</div>
+                    <div class="label">Humedad</div>
+                    <div class="value" id="humidity"></div>
+                </div>
+
+                <div class="weather-card">
+                    <div class="icon">💨</div>
+                    <div class="label">Viento</div>
+                    <div class="value" id="windSpeed"></div>
+                </div>
+
+                <div class="weather-card">
+                    <div class="icon">🌡️</div>
+                    <div class="label">Sensación Térmica</div>
+                    <div class="value" id="feelsLike"></div>
+                </div>
+
+                <div class="weather-card">
+                    <div class="icon">💨</div>
+                    <div class="label">Velocidad Viento</div>
+                    <div class="value" id="windGust"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
